@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+     <!--Lato 700-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<!--Lato 700-->
+ 
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="chartContainer" id="chartContainer">
+            <div>
+                <p class="myChartText" id="myChartText">Here can be your diagram😊</p>
+                <div class="chartContainer__img " id="chartContainer__img">
+                    <div class="chartContainer__img__item"></div>
+                </div>
+                <canvas id="myChart">
+                    
+                </canvas>
+              </div>
+        </div>
+        <div class="main">
+        <div class="inputContainer" id="inputContainer">
+            <h3>Setting</h3>
+            <div class="row rowInp">
+            <div class="form__group field">
+                <input type="input" class="form__field inp__category" placeholder="Type"  name="name" id='category' required />
+                <label for="name" class="form__label">category</label>
+              </div>
+
+              <div class="form__group field">
+                <input type="input" class="form__field inp__amount" placeholder="Type"  name="name" id='amount' required />
+                <label for="name" class="form__label">Price</label>
+              </div>
+            </div>
+           
+            
+            <div class="row rowBtn">
+                <button class="btn add" id="add">Add</button>
+                <button class="btn save" id="save">Save</button>
+                <button class="btn reset" id="reset">Reset</button>
+            </div>
+            <button class="btn random" id="random">Random</button>
+        </div>
+    </div>
+    </div>
+    
+
+
+      <script src="main.js">    
+  </script>
+</body>
+</html>
